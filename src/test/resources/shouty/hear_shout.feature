@@ -19,3 +19,10 @@ Scenario: John is too far away
 	Given John was 1500m from Bill 
 	When Bill shouts a valid message
 	Then John should not hear the shout
+	
+Scenario: Multiple people hear a shout
+    Given "Amy" was 500m from "Bob"
+    And "Bill" was 600m from "Bob"
+    When "Bob" shouts a valid message
+    Then "Amy" and "Bill" should hear the message	
+	
