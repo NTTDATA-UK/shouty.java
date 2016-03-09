@@ -1,4 +1,4 @@
-Feature: Hear Shout
+Feature: Shout a message
 
   A description goes here...
 
