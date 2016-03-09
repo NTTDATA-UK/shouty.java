@@ -19,16 +19,16 @@ It's usually today's date, followed by the trainer's initials: `YYYY-MM-DD-FL`.
 
 Git:
 
-    git clone https://github.com/cucumber-ltd/shouty.java.git
+    git clone https://github.com/MagenTys/shouty.java.git
     cd shouty.java
     git checkout THEBRANCH
 
 Subversion:
 
-    svn checkout https://github.com/cucumber-ltd/shouty.java/branches/THEBRANCH shouty.java
+    svn checkout https://github.com/MagenTys/shouty.java/branches/THEBRANCH shouty.java
     cd shouty.java
 
-Or simply [download](https://github.com/cucumber-ltd/shouty.java/releases) a zip or tarball.
+Or simply [download](https://github.com/MagenTys/shouty.java/releases) a zip or tarball.
 
 ### Catch up!
 
@@ -40,7 +40,7 @@ branch, simply do:
 
 ### Set up environment
 
-* Install IntelliJ IDEA
+* Install IntelliJ IDEA or Eclipse
   * Install Gherkin plugin
   * Install Cucumber for Java plugin
 * Install Maven
