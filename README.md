@@ -7,67 +7,50 @@ Shouty doesn't exist yet - you will implement it yourself!
 
 That is, if you're attending a BDD/Cucumber course.
 
-## Agenda
+## You will need
 
-### Get the code
+1. A Java IDE (e.g. Eclipse or IntelliJ IDEA)
+2. Java 1.8 JDK
+3. Maven
+4. Cucumber support for your IDE ([IntelliJ](https://plugins.jetbrains.com/plugin/7212?pr=), [Eclipse](https://cucumber.io/cucumber-eclipse/))
 
-You'll be working on a branch of the repository that has been set up for the
-training. This allows you to catch up with the trainer's code throughout the day.
-
-Substitute `THEBRANCH` below with what the trainer tells you.
-It's usually today's date, followed by the trainer's initials: `YYYY-MM-DD-FL`.
+## Get the code
 
 Git:
 
     git clone https://github.com/MagenTys/shouty.java.git
     cd shouty.java
-    git checkout THEBRANCH
 
 Subversion:
 
     svn checkout https://github.com/MagenTys/shouty.java/branches/THEBRANCH shouty.java
     cd shouty.java
 
-Or simply [download](https://github.com/MagenTys/shouty.java/releases) a zip or tarball.
+Or simply [download](https://github.com/MagenTys/shouty.java/releases) a zip and expand it into a directory on your computer.
 
-### Catch up!
 
-Throughout the day - if you want to catch up with what the trainer has pushed to this
-branch, simply do:
+## Import the project
 
-    git reset --hard  # This blows away your local changes
-    git pull          # This updates your working copy with the latest code
+In Eclipse:
 
-### Set up environment
+ `File > Import > Existing Maven Project`
 
-* Install IntelliJ IDEA or Eclipse
-  * Install Gherkin plugin
-  * Install Cucumber for Java plugin
-* Install Maven
-* Run `mvn test`
+Then browse to the directory where you downloaded shouty.java and you should see the project start importing.
 
-You should see:
+In IntelliJ
 
-    0 Scenarios
-    0 Steps
+`File > Import project`
 
-### Brainstorm capabilities
+Then browse to the `pom.xml` file in the directory where you downloaded `shouty.java` and open the pom file. The project should now load.
 
-* Who are the main stakeholders?
-* What can people do with the app?
-* What are the main differentiators from other apps?
+## Run the tests
 
-### Pick one capability
+In Eclipse:
 
-* Define rules
-* Create high level examples (Friends episodes)
+Right-click the project > Run as > Maven test
 
-Then do this for each example to discover more examples:
+In IntelliJ
 
-* Can you think of a context where the outcome would be different?
-* Are there any other outcomes we haven't thought about?
+Right-click the project > Run > All tests
 
-### Implement one capability. Inner Hexagon only.
-
-* Write a Cucumber Scenario for one of the examples
-* Make it pass!
+You should expect to see a couple of tests failing. If so, you're ready to roll!
