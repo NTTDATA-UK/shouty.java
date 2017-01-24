@@ -28,12 +28,12 @@ Subversion:
 
 Or simply [download](https://github.com/MagenTys/shouty.java/releases) a zip and expand it into a directory on your computer.
 
-
 ## Import the project
 
 In Eclipse:
 
- `File > Import > Existing Maven Project`
+`File > Import > Existing Maven Project`
+
 
 Then browse to the directory where you downloaded shouty.java and you should see the project start importing.
 
