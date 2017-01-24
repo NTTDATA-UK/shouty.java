@@ -18,21 +18,22 @@ That is, if you're attending a BDD/Cucumber course.
 
 Git:
 
-    git clone https://github.com/cucumber-ltd/shouty.java.git
+    git clone https://github.com/MagenTys/shouty.java.git
     cd shouty.java
 
 Subversion:
 
-    svn checkout https://github.com/cucumber-ltd/shouty.java/branches/master shouty.java
+    svn checkout https://github.com/MagenTys/shouty.java/branches/THEBRANCH shouty.java
     cd shouty.java
 
-Or simply [download](https://github.com/cucumber-ltd/shouty.java/releases) a zip and expand it into a directory on your computer.
+Or simply [download](https://github.com/MagenTys/shouty.java/releases) a zip and expand it into a directory on your computer.
+
 
 ## Import the project
 
 In Eclipse:
 
-`File > Import > Existing Maven Project`
+ `File > Import > Existing Maven Project`
 
 Then browse to the directory where you downloaded shouty.java and you should see the project start importing.
 
