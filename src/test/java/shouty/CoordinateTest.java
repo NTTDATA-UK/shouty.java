@@ -11,4 +11,10 @@ public class CoordinateTest {
         Coordinate b = new Coordinate(1000, 0);
         assertEquals(1000, a.distanceFrom(b));
     }
+
+    @Test
+    public void itCalculatesTheDistanceFromItself() {
+        Coordinate a = new Coordinate(0, 0);
+        assertEquals(0, a.distanceFrom(a));
+    }
 }
