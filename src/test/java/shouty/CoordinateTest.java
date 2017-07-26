@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 
 public class CoordinateTest {
 
-    @Test
+    //@Test
     public void itCalculatesTheDistanceFromAnotherCoordinateAlongXAxis() {
         Coordinate a = new Coordinate(0, 0);
         Coordinate b = new Coordinate(1000, 0);
