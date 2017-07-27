@@ -1,5 +1,6 @@
 package shouty;
 
+import com.google.inject.Inject;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -11,7 +12,12 @@ import static org.junit.Assert.assertEquals;
 
 public class ShoutSteps {
     private static final String ARBITRARY_MESSAGE = "Hello, world";
-    private final Shouty shouty = new Shouty();
+    private final Shouty shouty;
+
+    @Inject
+    public ShoutSteps(Shouty shouty){
+        this.shouty = shouty;
+    }
 
     @Given("^Lucy is at \\[(\\d+), (\\d+)\\]$")
     public void lucy_is_at(int xCoord, int yCoord) throws Throwable {

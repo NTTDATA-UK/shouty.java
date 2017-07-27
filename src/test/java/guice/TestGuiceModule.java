@@ -1,12 +1,13 @@
 package guice;
 
-import com.google.inject.Binder;
-import com.google.inject.Module;
+import com.google.inject.AbstractModule;
+import cucumber.api.guice.CucumberScopes;
+import shouty.Shouty;
 
-public class TestGuiceModule implements Module {
+public class TestGuiceModule extends AbstractModule {
 
     @Override
-    public void configure(Binder binder) {
-
+    protected void configure() {
+        bind(Shouty.class).in(CucumberScopes.SCENARIO);
     }
 }
