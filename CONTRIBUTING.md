@@ -5,7 +5,7 @@ This is a fork of `git@github.com:cucumber-ltd/shouty.java.git`
 
 In order to maintain updates from cucumber-ltd, and to support contributing back, we use GitFlow
 
-`master` branch is the MagenTys repository master
+`master` branch is the NTT DATA repository master
 
 `upstream_master` branch tracks the Cucumber Ltd master branch.
 
